@@ -40,7 +40,7 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- See my Demo here --> <a href="https://stirring-axolotl-f728ea.netlify.app">
+- See my Demo here --> https://stirring-axolotl-f728ea.netlify.app
 
 - If you want to learn how to be a responsive web developer this project will sure give you a good start to this. Had to wreck my brain but worked it out in the end. 
 
