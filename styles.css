@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 100px 120px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left__header {
+  color: #000000;
+  font-family: "PT Serif";
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 40px;
+}
+
+.right__header {
+  color: #000000;
+  font-family: "Poppins";
+  width: 40%;
+}
+
+.right__header--title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.right__header--para {
+  margin-top: 16px;
+  font-weight: 400;
+  width: 90%;
+}
+
+#container {
+  margin-top: 64px;
+}
+
+#container__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__figure--middle {
+  margin-top: 160px;
+}
+
+.img__figure {
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_indiv {
+  width: 60%;
+  border-radius: 6px;
+}
+
+.img__para {
+  text-transform: uppercase;
+  width: 100%;
+  position: relative;
+  top: 210px;
+  left: 130px;
+  transform: rotate(90deg);
+}
+
+.img__name {
+  font-weight: 700;
+  position: relative;
+  right: 65px;
+}
+
+.img__name--shaele {
+  right: 90px;
+}
+
+.img__name--john {
+  right: 80px;
+}
+
+.img__name--lu {
+  right: 80px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 12px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .left__header {
+    padding-left: 0px;
+    margin-bottom: 36px;
+  }
+
+  .right__header {
+    width: 50%;
+  }
+
+  .right__header--para {
+    width: 100%;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  #container__img {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .img__figure--middle {
+    margin-top: 0px;
+  }
+
+  .img__figure {
+    margin-top: 48px;
+  }
+
+  .container__img3 {
+    margin-top: 60px;
+  }
+
+  .img__name {
+    right: 15px;
+  }
+
+  .img__name--shaele {
+    right: 40px;
+  }
+
+  .img__name--john {
+    right: 30px;
+  }
+
+  .img__name--lu {
+    right: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .right__header--para {
+    width: 300px;
+  }
+  #container__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .img__para {
+    text-transform: uppercase;
+    width: 100%;
+    position: relative;
+    top: 130px;
+    left: 80px;
+    transform: rotate(90deg);
+  }
+}
